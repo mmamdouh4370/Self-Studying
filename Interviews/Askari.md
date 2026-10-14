@@ -81,3 +81,80 @@ Resource: [SORT paper](https://arxiv.org/abs/1602.00763)
 ## PyTorch
 - [PyTorch 60-Minute Blitz](https://docs.pytorch.org/tutorials/beginner/blitz/)
 - [Torchvision object detection tutorial](https://docs.pytorch.org/tutorials/intermediate/torchvision_tutorial.html)
+
+
+****About Askari Defense****
+
+Modern warfare is dictated by robotics. Autonomous drones and robotic ground systems are reshaping every battlefield on Earth.
+
+Askari develops high-performance, fully-autonomous kinetic intercept systems that counter unmanned aerial and robotic threats in the world's most demanding operational environments. We build deployable systems for real-world constraints, urgent missions, and operators who cannot wait years for capability, and are continuously evolving our systems because the robotic threat evolves daily.
+
+We are a tight team of top engineers and scientists from Skydio, Hermeus, Near Earth Autonomy, Area-I/Anduril, Raytheon, Sandia National Laboratories, and GTRI. We work directly with elite end-users, turning emerging battlefield requirements into rugged, scalable, mission-ready defenses.
+
+Come build alongside elite engineers on a generational mission to defend the Western world. We hold ourselves to an exceptionally high bar: the work is demanding, the pace is intense, and the mission requires people willing to go all in. For the right person, it will be more rewarding than any previous job. Askari is a place for builders serious about mastery, ownership, exponential growth, and delivering capability when it matters most.
+
+As warfare becomes increasingly robotic, distributed, and fast-moving, the defense industrial base needs a new model: Askari is defining that model.
+
+If protecting humanity from the coming age of robotic warfare is the mission you have been waiting for, this is where you do it.
+
+****About the role****
+
+This role is designed for a ****perception engineer**** who can build, evaluate, and deploy the sensing and embedded vision systems that allow our autonomous intercept platforms to detect, track, and act on fast-moving aerial threats.
+
+You will work across the full perception stack, from ****camera and lens selection**** through image formation, signal processing, embedded deployment, model evaluation, and integration with the autonomy system. Machine learning is part of the job, but not the whole job. We are looking for someone who understands that perception performance starts before the model: with the sensor, optics, scene, exposure, motion, latency, compute, and data pipeline.
+
+You will support camera and lens trade studies, evaluate sensor characteristics against mission requirements, develop image- and signal-processing techniques that improve detection of small, low-contrast objects, and help translate range data into better embedded perception performance. This is not a research-only role. Your work will run onboard real vehicles, integrate with the autonomy stack, and be tested against demanding field data.
+
+We are looking for ****evidence-driven engineers:**** individuals who ****prioritize physical reality over opinion****, care about end-to-end system performance, and can debug problems across the full chain from photons hitting the sensor to detections reaching the autonomy system.
+
+This is a strong fit for someone who wants to build perception systems that leave the laptop, run on embedded compute, and directly determine whether an autonomous system succeeds in the real world.
+
+****What you'll do****
+
+You will develop and deploy the optical sensing, image-processing, and embedded perception capabilities that enable our autonomous systems to detect, classify, track, and reason about fast-moving aerial targets in real time.
+
+You will focus on problems in all of the following areas:
+
+- ****Optical Sensor & Lens Trade Studies:**** Support camera and lens trade studies, evaluating sensor characteristics such as pixel size, sensitivity, noise, dynamic range, resolution, and optical performance against application requirements.
+- ****Image & Signal Processing:**** Develop and evaluate image- and signal-processing techniques, including denoising, filtering, temporal extraction, and contrast enhancement, to improve detection of small, low-contrast objects.
+- ****Aerial-Object Data Collection:**** Design and execute data-collection experiments for aerial-object detection and tracking, then use field data to improve the next system iteration.
+- ****Embedded Vision Deployment:**** Deploy, benchmark, and maintain perception software on embedded edge compute aboard autonomous vehicles.
+- ****Real-Time Performance:**** Optimize perception pipelines for latency, throughput, and reliability on NVIDIA Jetson Orin-class hardware using tools such as ****CUDA**** and ****TensorRT**** where appropriate.
+- ****Computer Vision & ML Models:**** Design, train, fine-tune, and evaluate vision models for detection, classification, tracking, and state estimation on fast-moving aerial targets.
+- ****Autonomy Stack Integration:**** Integrate perception outputs into our autonomy stack using ****ROS 2**** and write production-quality ****C++**** for real-time processing.
+- ****End-to-End Debugging:**** Debug problems across the entire stack, from photons hitting the sensor to detections reaching the autonomy system.
+- ****Performance Characterization:**** Analyze perception performance across flight data, edge cases, false positives, false negatives, latency, lighting, motion blur, vibration, target size, and engagement conditions.
+- ****Cross-Functional Development:**** Work closely with autonomy, GNC, state estimation, flight test, electrical, and data teams to ensure perception outputs are useful, timely, and aligned with the needs of the full system.
+- ****Dataset Improvement:**** Help identify data gaps, improve labeling workflows, and guide future data collection so perception development reflects the environments and target behaviors that matter most.
+
+****Basic Qualifications****
+
+- ****Education:**** BS in Computer Science, Robotics, Electrical Engineering, Computer Engineering, Aerospace Engineering, or a related field plus 1+ years of industry or applied robotics experience, or an MS in a related discipline.
+- ****Perception or Computer Vision:**** Experience developing perception, computer vision, image-processing, or sensor-processing systems for real-world applications.
+- ****Software Skills:**** Proficiency in ****C++**** for performance-sensitive systems.
+- ****Image Processing:**** Familiarity with image-processing fundamentals such as filtering, denoising, contrast enhancement, feature extraction, or temporal analysis.
+- ****Embedded or Real-Time Systems:**** Experience building, profiling, or deploying software where latency, compute, or hardware constraints matter.
+- ****Computer Vision Models:**** Experience training, fine-tuning, or evaluating vision models, including CNNs, Vision Transformers, detection, tracking, or related approaches.
+- ****Execution Tempo:**** Ability to work in a fast-paced engineering environment where field data, hardware constraints, and measured system performance drive rapid iteration.
+
+  
+
+****Preferred Qualifications****
+
+Experience in any of the following areas is a plus:
+
+- ****Camera & Lens Evaluation:**** Experience evaluating cameras, lenses, image sensors, or optical systems against application requirements.
+- ****Sensor Characteristics:**** Familiarity with sensor characteristics such as pixel size, sensitivity, noise, dynamic range, resolution, exposure, and optical performance.
+- ****Embedded Edge Deployment:**** Experience deploying perception software or models on embedded edge platforms, including ****Jetson Orin**** or Xavier.
+- ****GPU Optimization:**** Hands-on GPU programming or profiling experience, including ****CUDA****, TensorRT, or related tools.
+- ****ROS 2:**** Experience with ROS 2 nodes, lifecycle management, QoS, custom interfaces, or related robotics middleware.
+- ****Sensor Fusion:**** Experience with sensor fusion, including visual-inertial odometry, camera + radar, camera + LiDAR, or related multimodal perception systems.
+- ****Field Robotics or UAS Testing:**** Prior field-robotics or UAS test experience.
+- ****Dataset & Evaluation Workflows:**** Experience building or using datasets, labeling workflows, evaluation metrics, and model regression tools for perception systems.
+- ****Production CV Systems:**** Experience taking perception algorithms or models beyond notebooks into deployed, maintainable software systems.
+
+https://www.hypepotamus.com/askari-defense-launches-in-atlanta/
+https://www.techsquareatl.com/tech-square-news/2026/4/7/now-out-of-stealth-askari-is-building-smarter-decentralized-defense-systems
+https://www.dhs.gov/science-and-technology/news/2025/12/02/feature-article-taking-nefarious-drones-out-fight
+https://create-x.gatech.edu/2025-demo-day
+https://askaridefense.com/press/lore
