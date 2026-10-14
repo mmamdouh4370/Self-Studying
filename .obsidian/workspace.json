@@ -11,10 +11,14 @@
             "id": "c793da6dcdf67968",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Interviews/Askari.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Askari"
             }
           }
         ]
@@ -181,8 +185,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "205cb5ff64560627",
+  "active": "c793da6dcdf67968",
   "lastOpenFiles": [
+    "Apple Questions.md",
+    "Interviews/Askari.md",
+    "Interviews",
     "C++/- Copy.gitkeep",
     "AI-Programming/- Copy (2).gitkeep",
     " - Copy (2).gitkeep",
